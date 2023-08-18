@@ -1,0 +1,12 @@
+16:44:36 **** Incremental Build of configuration Debug for project 009_HAL_CAN_BUS_EXT_WITH_FILTER_BOARD1 ****
+make all 
+arm-none-eabi-size   009_HAL_CAN_BUS_EXT_WITH_FILTER_BOARD1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9992	     20	   1708	  11720	   2dc8	009_HAL_CAN_BUS_EXT_WITH_FILTER_BOARD1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy.exe -O ihex "009_HAL_CAN_BUS_EXT_WITH_FILTER_BOARD1.elf" "009_HAL_CAN_BUS_EXT_WITH_FILTER_BOARD1.hex"
+ 
+
+16:44:37 Build Finished. 0 errors, 0 warnings. (took 665ms)
+

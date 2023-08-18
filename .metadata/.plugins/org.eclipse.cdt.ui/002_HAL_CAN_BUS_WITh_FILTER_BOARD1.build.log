@@ -1,0 +1,18 @@
+19:06:20 **** Build of configuration Debug for project 002_HAL_CAN_BUS_WITh_FILTER_BOARD1 ****
+make all 
+arm-none-eabi-gcc -o "002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407VG_FLASH.ld" --specs=nosys.specs -Wl,-Map="002_HAL_CAN_BUS_WITh_FILTER_BOARD1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf
+ 
+arm-none-eabi-size   002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9980	     20	   1708	  11708	   2dbc	002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf  > "002_HAL_CAN_BUS_WITh_FILTER_BOARD1.list"
+Finished building: 002_HAL_CAN_BUS_WITh_FILTER_BOARD1.list
+ 
+arm-none-eabi-objcopy.exe -O ihex "002_HAL_CAN_BUS_WITh_FILTER_BOARD1.elf" "002_HAL_CAN_BUS_WITh_FILTER_BOARD1.hex"
+ 
+
+19:06:22 Build Finished. 0 errors, 0 warnings. (took 2s.102ms)
+

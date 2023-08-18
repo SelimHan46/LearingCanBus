@@ -1,0 +1,10 @@
+14:34:17 **** Incremental Build of configuration Debug for project 012_2_HAL_CAN_BUS_GET_ADC_DATA_AND_SHOW_WITH_I2C ****
+make -j8 all 
+arm-none-eabi-size   012_2_HAL_CAN_BUS_GET_ADC_DATA_AND_SHOW_WITH_I2C.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12268	     20	   1788	  14076	   36fc	012_2_HAL_CAN_BUS_GET_ADC_DATA_AND_SHOW_WITH_I2C.elf
+Finished building: default.size.stdout
+ 
+
+14:34:17 Build Finished. 0 errors, 0 warnings. (took 290ms)
+
